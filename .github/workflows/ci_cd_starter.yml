@@ -28,4 +28,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: greeting-service-jar
-        path: target/*.jar
+        path: greeting-service/target/*.jar
