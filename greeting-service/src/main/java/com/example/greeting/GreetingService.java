@@ -1,4 +1,4 @@
-package com.github.actions.tutorial;
+package com.example.greeting;
 
 public class GreetingService {
 

@@ -1,8 +1,10 @@
-package com.github.actions.tutorial;
+package com.example.greeting;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import com.example.greeting.GreetingService;
 
 
 class GreetingServiceTest {
