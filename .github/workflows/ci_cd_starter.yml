@@ -24,11 +24,12 @@ jobs:
       run: mvn clean install
       working-directory: greeting-service
 
-    - name: Upload JAR artifact
+    - name: Upload JAR and BAT as artifact
       uses: actions/upload-artifact@v4
       with:
-        name: greeting-service-jar
-        path: |
+       name: greeting-service-artifacts
+       path: |
           greeting-service/target/greeting-service.jar
           greeting-service/run.bat
+
 
