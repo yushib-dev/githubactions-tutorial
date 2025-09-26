@@ -30,6 +30,6 @@ jobs:
        name: greeting-service-artifacts
        path: |
           greeting-service/target/greeting-service.jar
-          greeting-service/scripts/run.bat
+          greeting-service/scripts/GreetingApp.bat
 
 
