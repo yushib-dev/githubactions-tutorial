@@ -4,9 +4,9 @@ public class GreetingService {
 
     public String greet(String name) {
         if (name == null ||  "".equals(name)) {
-            return "こんにちは、ゲストさん！";
+            return "Hello, Guest!";
         }
-        return "こんにちは、" + name + "さん！";
+        return "Hello, " + name + "!";
     }
 
 }
