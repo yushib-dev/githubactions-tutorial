@@ -7,7 +7,7 @@
 
 
     <properties>
-        <maven.compiler.source>21</maven.compiler.source> <!-- Javaのバージョンに合わせて変更 -->
+        <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.9.3</junit.version>
@@ -24,6 +24,7 @@
     </dependencies>
 
     <build>
+        <finalName>greeting-service</finalName> <!-- jarのファイル名をgreeting-service.jarに固定 -->
         <plugins>
             <!-- Surefire Plugin for running tests -->
             <plugin>
