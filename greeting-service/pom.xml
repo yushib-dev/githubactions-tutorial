@@ -39,7 +39,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.greeting.GreetingApp</mainClass>
+                            <mainClass>com.example.greeting.GreetingServiceMain</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

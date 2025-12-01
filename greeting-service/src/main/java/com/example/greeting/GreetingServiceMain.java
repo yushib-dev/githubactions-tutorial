@@ -2,7 +2,7 @@ package com.example.greeting;
 
 import java.util.Scanner;
 
-public class GreetingApp {
+public class GreetingServiceMain {
 
 
     public static void main(String[] args) {
